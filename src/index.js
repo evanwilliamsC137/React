@@ -5,12 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-const checklist = ["boots","tents","headlamp"];
-console.log(checklist[1])
-
 ReactDOM.render(
 
-    <App authorized={true}/>,
+    <App />,
   document.getElementById('root')
 );
 reportWebVitals();
